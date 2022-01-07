@@ -2,11 +2,11 @@
 #include <WiFi.h>
 
 //Pin der IR Diode am digitalen Pin 3 angeschlossen
-int irSendPin = 3;
+int irSendPin = 21;
 int ID = 1;
 
 const char* ssid = "lasertec";
-const char* password =  "lasertec";
+const char* password =  "pyhZvGQtD20kS8rg9W0NQprxqu4DDo9KfF0YJAtdmTB5hU9LvvUDDVi34popsE4";
 
 
 
