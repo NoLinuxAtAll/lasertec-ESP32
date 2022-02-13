@@ -55,10 +55,7 @@ void loop() {
         delay(250);
     
     //MQTT Ausgabe Schuss wurde abgefeuert
-  } else {
-    // turn LED off:
-    digitalWrite(ledPin, LOW);
-  }
+  } 
     
      if (irrecv.decode(&results)) { //Wenn etwas gelesen wurde dann...
     if (irrecv.getProtocolString() == "SONY") {
